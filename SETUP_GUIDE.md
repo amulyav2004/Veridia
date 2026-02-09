@@ -1,6 +1,6 @@
 # Veridia Hiring Platform - Full-Stack Setup Guide
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 This is a complete full-stack application with:
 - **Frontend:** React + TypeScript + Vite
@@ -11,7 +11,7 @@ This is a complete full-stack application with:
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have installed:
 - **Node.js** (v18 or higher) - [Download](https://nodejs.org/)
@@ -21,7 +21,7 @@ Before you begin, ensure you have installed:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install MongoDB (Local Setup)
 
@@ -113,7 +113,7 @@ VITE_API_URL=http://localhost:5000/api
 
 ---
 
-## 📧 Email Setup (Optional but Recommended)
+## Email Setup (Optional but Recommended)
 
 ### Using Gmail:
 
@@ -136,7 +136,7 @@ VITE_API_URL=http://localhost:5000/api
 
 ---
 
-## 🧪 Testing the Application
+## Testing the Application
 
 ### 1. Register a Candidate
 1. Go to http://localhost:5173
@@ -163,7 +163,7 @@ VITE_API_URL=http://localhost:5000/api
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Veridia/
@@ -195,7 +195,7 @@ Veridia/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new user
@@ -212,7 +212,7 @@ Veridia/
 
 ---
 
-## 🔄 Switching Between LocalStorage and Backend
+## Switching Between LocalStorage and Backend
 
 The project includes both implementations:
 
@@ -230,7 +230,7 @@ import { api } from './api';
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 ### Backend Deployment (Render/Railway/Heroku)
 
@@ -255,7 +255,7 @@ import { api } from './api';
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### MongoDB Connection Error
 ```
@@ -290,7 +290,7 @@ Error: listen EADDRINUSE: address already in use :::5000
 
 ---
 
-## 📊 Database Schema
+## Database Schema
 
 ### User Collection
 ```javascript
@@ -335,7 +335,7 @@ Error: listen EADDRINUSE: address already in use :::5000
 
 ---
 
-## 🎯 Features Checklist
+## Features Checklist
 
 ✅ **Backend:**
 - [x] RESTful API with Express
@@ -359,7 +359,7 @@ Error: listen EADDRINUSE: address already in use :::5000
 
 ---
 
-## 📝 Notes
+## Notes
 
 - **Default Admin:** Any email with `@veridia.com` is automatically assigned admin role
 - **Password Requirements:** Minimum 6 characters
@@ -368,7 +368,7 @@ Error: listen EADDRINUSE: address already in use :::5000
 
 ---
 
-## 🆘 Support
+## Support
 
 For issues or questions:
 1. Check this README
@@ -378,7 +378,7 @@ For issues or questions:
 
 ---
 
-## 🎉 You're All Set!
+## You're All Set!
 
 Your full-stack Veridia Hiring Platform is now ready to use!
 
@@ -391,4 +391,5 @@ Your full-stack Veridia Hiring Platform is now ready to use!
 6. Manage applications as admin
 7. Check email notifications
 
-**Happy Hiring! 🚀**
+
+
