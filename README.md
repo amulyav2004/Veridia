@@ -2,9 +2,9 @@
 
 A complete full-stack hiring platform with React frontend and Node.js backend, replacing traditional Google Forms with a professional recruitment system.
 
-## 🌟 Features
+## Features
 
-### ✅ Complete Full-Stack Implementation
+### Complete Full-Stack Implementation
 
 **Frontend (React + TypeScript + Vite):**
 - Beautiful, modern UI with 3D animations
@@ -21,7 +21,7 @@ A complete full-stack hiring platform with React frontend and Node.js backend, r
 - Role-based access control
 - Secure password hashing
 
-### 🎯 Core Features
+###  Core Features
 
 1. **Candidate Registration & Login**
    - Email-based authentication
@@ -52,7 +52,7 @@ A complete full-stack hiring platform with React frontend and Node.js backend, r
    - Status update notifications
    - Professional HTML email templates
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js (v18+)
@@ -93,7 +93,7 @@ The application will be available at:
 - **Frontend:** http://localhost:5173
 - **Backend API:** http://localhost:5000
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Veridia/
@@ -110,7 +110,7 @@ Veridia/
 └── SETUP_GUIDE.md       # Detailed setup instructions
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Backend (.env)
 ```env
@@ -126,13 +126,13 @@ EMAIL_PASSWORD=your-app-password
 VITE_API_URL=http://localhost:5000/api
 ```
 
-## 📚 Documentation
+##  Documentation
 
 - **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Complete setup instructions
 - **[PROJECT_FEATURES.md](PROJECT_FEATURES.md)** - Feature documentation
 - **[backend/README.md](backend/README.md)** - Backend API documentation
 
-## 🎨 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React 19.2.0
@@ -150,7 +150,7 @@ VITE_API_URL=http://localhost:5000/api
 - Bcrypt (password hashing)
 - Nodemailer (email service)
 
-## 🧪 Testing
+##  Testing
 
 ### Register Test Users
 
@@ -168,7 +168,7 @@ Password: admin123
 
 *Note: Any email with @veridia.com is automatically assigned admin role*
 
-## 🚢 Deployment
+##  Deployment
 
 ### Backend (Render/Railway/Heroku)
 1. Push to GitHub
@@ -184,7 +184,7 @@ Password: admin123
 
 See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed deployment instructions.
 
-## 📊 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register user
@@ -197,11 +197,11 @@ See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed deployment instructions.
 - `PUT /api/applications/:id/status` - Update status (admin)
 - `PUT /api/applications/:id/withdraw` - Withdraw application
 
-## 🎯 Submission Options
+##  Submission Options
 
 This project fulfills **Option B: Full-Stack Working Hiring Platform**
 
-✅ All required features implemented:
+ All required features implemented:
 - Candidate registration and login
 - Application form (Google Forms replacement)
 - Candidate dashboard
@@ -210,11 +210,11 @@ This project fulfills **Option B: Full-Stack Working Hiring Platform**
 
 **Plus:** Professional UI/UX design with modern aesthetics!
 
-## 📝 License
+##  License
 
 MIT License - feel free to use this project for your needs.
 
-## 🆘 Support
+##  Support
 
 For setup help, see [SETUP_GUIDE.md](SETUP_GUIDE.md)
 
@@ -223,10 +223,5 @@ For issues:
 2. Verify environment variables
 3. Check console for errors
 
-## 🎉 Credits
 
-Built with ❤️ for Veridia
 
----
-
-**Ready to revolutionize your hiring process!** 🚀
